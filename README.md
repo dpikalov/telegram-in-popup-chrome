@@ -12,7 +12,7 @@ When you open https://web.telegram.org, Chrome extensions (like e.g. adblock) **
 As Google rejected this extention due to Policy vioation (they don't allow to publish extensions with only functionaty to open 3rd party website) - the only option is to install it manually (see how-to below) 
 
 ## Video
-[<img src="https://i.ytimg.com/vi/Q-CHQ58shWY/maxresdefault.jpg" width="50%">](https://studio.youtube.com/video/Q-CHQ58shWY)
+[<img src="https://i.ytimg.com/vi/Q-CHQ58shWY/maxresdefault.jpg" width="50%">](https://youtu.be/Q-CHQ58shWY)
 
 ## How to install it in Chrome
 - Clone the  repo
