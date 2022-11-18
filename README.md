@@ -2,7 +2,7 @@
 
 This extenshon opens **www.telegram.org** in Popup page
 
-### Motivation
+## Motivation
 Using https://web.telegram.org in Chrome **is not safe**.
 
 When you open https://web.telegram.org, Chrome extensions (like e.g. adblock) **can read** your chats, as **they have full access** to any opened tabs. I.e. they can read everything in your chats / channels and send it to 3rd party servers.
@@ -11,7 +11,7 @@ When you open https://web.telegram.org, Chrome extensions (like e.g. adblock) **
 
 As Google rejected this extention due to Policy vioation (they don't allow to publish extensions with only functionaty to open 3rd party website) - the only option is to install it manually (see how-to below) 
 
-### Video
+## Video
 [<img src="https://i.ytimg.com/vi/Q-CHQ58shWY/maxresdefault.jpg" width="50%">](https://studio.youtube.com/video/Q-CHQ58shWY)
 
 ## How to install it in Chrome
