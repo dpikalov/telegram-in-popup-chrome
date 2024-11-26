@@ -18,7 +18,8 @@
   ],
 
   "host_permissions": [
-    "*://*.telegram.org/*"
+    "*://*.telegram.org/*",
+    "*://walletbot.me/*"
   ],
 
   "declarative_net_request" : {

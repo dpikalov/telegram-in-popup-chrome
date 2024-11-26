@@ -9,5 +9,16 @@
       ]
      },
     "condition": { "urlFilter": "*https://web.telegram.org/*", "resourceTypes": ["main_frame","sub_frame"] }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "content-security-policy", "operation": "remove" }
+      ]
+     },
+    "condition": { "urlFilter": "*https://walletbot.me/*", "resourceTypes": ["main_frame","sub_frame"] }
   }
 ]
