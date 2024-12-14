@@ -1,11 +1,11 @@
 {
   "manifest_name": {
-    "message": "Telegram In Popup"
+    "message": "..."
   },
   "manifest_description": {
-    "message": "Show Telegram in popup window. This extension doens't have any JS code - it's safe to use."
+    "message": "Show Telegram in Side-panel. This extension doens't have any JS code - it's safe to use."
   },
   "manifest_title": {
-    "message": "Telegram in Popup window"
+    "message": "Telegram in Side-panel window"
   }
 }

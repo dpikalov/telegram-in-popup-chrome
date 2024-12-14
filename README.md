@@ -1,6 +1,6 @@
 # telegram-in-popup-chrome
 
-This chrome-extenshon opens **www.telegram.org** in Popup page
+This chrome-extenshon opens **www.telegram.org** in ~~Popup page~~ Side Panel
 
 ## Motivation
 Using https://web.telegram.org in Chrome **is not safe**.

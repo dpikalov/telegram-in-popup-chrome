@@ -3,20 +3,26 @@
   <title> Telegram in Popup </title>
 
   <style type=text/css>
-    _body {
-      width : 380px !important;
-      height: 600px !important;
-      margin: 0;
+    :root {
+      --scale: .9;
     }
+
     iframe {
-      position:fixed;
-      height: calc(100vh / 0.9);
-      width : calc(100vw / 0.9);
-      left  : calc(100%  * (1 - 1/0.9) / 2);
-      top   : calc(100%  * (1 - 1/0.9) / 2);
-      transform: scale( 0.9 );
+      position: fixed;
+      height: calc(100vh / var(--scale));
+      width : calc(100vw / var(--scale));
+      left  : calc(100%  * (1 - 1/var(--scale)) / 2);
+      top   : calc(100%  * (1 - 1/var(--scale)) / 2);
+      transform: scale( var(--scale) );
       border: none;
-      filter: brightness(92%);
+    }
+
+    iframe {
+      filter: brightness(96%) blur(5px);
+    }
+
+    iframe:hover {
+      filter: brightness(96%) blur(0px);
     }
   </style>
 
