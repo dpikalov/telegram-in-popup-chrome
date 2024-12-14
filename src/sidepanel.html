@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <title> Telegram in Popup </title>
+
+  <style type=text/css>
+    _body {
+      width : 380px !important;
+      height: 600px !important;
+      margin: 0;
+    }
+    iframe {
+      position:fixed;
+      height: calc(100vh / 0.9);
+      width : calc(100vw / 0.9);
+      left  : calc(100%  * (1 - 1/0.9) / 2);
+      top   : calc(100%  * (1 - 1/0.9) / 2);
+      transform: scale( 0.9 );
+      border: none;
+      filter: brightness(92%);
+    }
+  </style>
+
+<body>
+  <iframe src="https://web.telegram.org/k/"> </iframe>
+</body>
+
+</html>

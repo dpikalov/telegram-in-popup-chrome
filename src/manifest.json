@@ -14,8 +14,12 @@
   },
 
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequest", "sidePanel"
   ],
+
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
 
   "host_permissions": [
     "*://*.telegram.org/*",
