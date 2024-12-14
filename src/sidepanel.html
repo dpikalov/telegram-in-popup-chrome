@@ -17,17 +17,30 @@
       border: none;
     }
 
+    _iframe {
+      position: fixed;
+      height: calc(100% - 4px);
+      width: calc(100% - 4px);
+      left: 1px;
+      top: 1px;
+      transform: scale( var(--scale) );
+      border: 1px solid #6f6565;
+      border-radius: 16px;
+    }
+
     iframe {
-      filter: brightness(96%) blur(5px);
+      transition: filter .3s;
+      filter: brightness(96%) blur(6px);
     }
 
     iframe:hover {
       filter: brightness(96%) blur(0px);
     }
+
   </style>
 
 <body>
-  <iframe src="https://web.telegram.org/k/"> </iframe>
+  <iframe src="https://web.telegram.org/k/" allow="clipboard-read; clipboard-write"> </iframe>
 </body>
 
 </html>
