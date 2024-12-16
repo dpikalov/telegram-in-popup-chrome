@@ -32,5 +32,9 @@
       "enabled": true,
       "path": "manifest-rule-1.json"
     }]
+  },
+
+  "background": {
+    "service_worker": "sw.js"
   }
 }
